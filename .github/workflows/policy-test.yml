@@ -23,4 +23,4 @@ jobs:
         run: kyverno version
 
       - name: Test the policy against the resource
-        run: kyverno test ./tests/require_annotations/
+        run: kyverno test ./tests
